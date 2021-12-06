@@ -1,4 +1,4 @@
-#Quake 3 Server configuration scripts
+# Quake 3 Server configuration scripts
 
 ## Random map rotation config for CTF
 See baseq3/ctf.cfg for general CTF server setting. This is a template.
