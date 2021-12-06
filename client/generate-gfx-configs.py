@@ -32,14 +32,14 @@ for variable, value_map in gfx_variables.items():
 # write temporary settings
 for target, value_list in target_configs.items():
     file_content = [f'set {key} "{value}"\n' for key, value in value_list.items()]
-    with open(f'gfx-{target}-tmp.cfg', 'w') as config_file:
+    with open(f'configs/gfx-{target}-tmp.cfg', 'w') as config_file:
         config_file.writelines(file_content)
 
 
 # write persistent settings which will be written to local q3config.cfg on 'exec'
 for target, value_list in target_configs.items():
     file_content = [f'seta {key} "{value}"\n' for key, value in value_list.items()]
-    with open(f'gfx-{target}-pers.cfg', 'w') as config_file:
+    with open(f'configs/gfx-{target}-pers.cfg', 'w') as config_file:
         config_file.writelines(file_content)
 
 
