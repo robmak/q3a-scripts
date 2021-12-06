@@ -5,3 +5,4 @@ the chosen config with:
     exec gfx-YOUR-QUALITY-tmp.cfg
 
 Press TAB to benefit from autocompletion for config file names.
+

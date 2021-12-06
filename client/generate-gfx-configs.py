@@ -32,6 +32,7 @@ for variable, value_map in gfx_variables.items():
 # write configs
 for target, value_list in target_configs.items():
     file_content = [f'set {key} "{value}"\n' for key, value in value_list.items()]
+    file_content.append('vid_restart')
     with open(f'configs/gfx-{target}.cfg', 'w') as config_file:
         config_file.writelines(file_content)
 
