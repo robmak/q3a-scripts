@@ -1,0 +1,47 @@
+{
+    "r_mode": {"pro": "-2"},
+    "r_modeFullscreen": {"pro": "-2"},
+    "r_swapinterval": {"pro": "0"},
+	"r_displayRefresh": {"pro": "0"},
+
+    "r_lodbias": {"pro": "2", "low": "1",  "medium": "0"},
+	"r_subdivisions": {"pro": "64", "low": "16", "medium": "4", "high": "1" },
+
+	"r_textureMode": {"pro": "GL_NEAREST_MIPMAP_NEAREST", "low": "GL_LINEAR_MIPMAP_NEAREST", "medium": "GL_LINEAR_MIPMAP_LINEAR"},
+	"r_picmip": {"pro": "8", "low": "1", "medium": "0"},
+	"r_nomip": {"pro": "0", "medium": "1"},
+	"r_neatsky": {"pro": "0", "medium": "1"},
+	"r_detailtextures": {"pro": "0", "medium": "1"},
+
+	"r_vbo": {"pro": "0", "medium": "1"},
+	"r_fbo": {"pro": "0", "medium": "1"},
+	"r_bloom": {"pro": "0", "high": "1"},
+	"r_dither": {"pro": "0", "high": "1"},
+	"r_dlightMode": {"pro": "0", "medium": "1", "high": "2"},
+	"r_dlightScale": {"pro": "1.0", "low": "0", "medium": "0.75", "high": "1.0"},
+	"r_mapGreyScale": {"pro": "-0.85", "low": "0"},
+	"r_ext_multisample": {"pro": "0", "medium": "2", "high": "2"},
+	"r_ext_alpha_to_coverage": {"pro": "0", "medium": "1", "high": "0"},
+	"r_ext_supersample": {"pro": "0", "high": "1"},
+	"r_ext_texture_filter_anisotropic": {"pro": "1", "low": "0", "medium": "1"},
+	"r_ext_max_anisotropy": {"pro": 0, "medium": "2", "high": "8"},
+
+    "r_flares": {"pro": "0", "medium": "1"},
+    "r_fastsky": {"pro": "1", "medium": "0"},
+	"r_noportals": {"pro": "0", "low": "2", "medium": "0"},
+
+	"r_vertexLight": {"pro": "0", "low": "1","medium": "0"},
+	"r_dynamicLight": {"pro": "1", "low": "0", "medium": "1"},
+	"r_fullbright": {"pro": "0"},
+
+	"cg_gibs": {"pro": "0", "medium": "1"},
+	"cg_noProjectileTrail": {"pro": "0", "low": "1", "medium": "0"},
+	"cg_oldPlasma": {"pro": "1", "medium": "0"},
+	"cg_oldRocket": {"pro": "1", "medium": "0"},
+	"cg_oldRail": {"pro": "1", "medium": "0"},
+	"cg_draw3dIcons": {"pro": "0", "low": "0", "medium": "1"},
+	"cg_marks": {"pro": "1", "low": "0", "medium": "1"},
+	"cg_brassTime": {"pro": "1000", "low": "500", "medium": "2500", "high": "5000"},
+	"cg_simpleItems": {"pro": "1", "low": "1", "medium": "0"},
+	"cg_smoothClients": {"pro": "0", "low": "0", "medium": "1"}
+}
