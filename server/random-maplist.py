@@ -27,9 +27,9 @@ for i in range(size):
     e.update(maps[i])
     params = ' ; '.join([str('set '+key+' '+str(e[key])) for key in param_keys]) + f'; map {e["map"]}'
     if i < size - 1:
-        result.append(str(f'set d{i+1} "set nextmap vstr d{i+2}; {params}"'))
+        result.append(str(f'set d{i+1} "{params} ; set nextmap vstr d{i+2};"'))
     else:
-        result.append(str(f'set d{i+1} "set nextmap vstr d1 ; {params}"'))
+        result.append(str(f'{params} ; set d{i+1} "set nextmap vstr d1;"'))
 
 result.append('vstr d1')
 
