@@ -1,0 +1,43 @@
+{
+    "maps" : [
+        {"map": "q3dm7", "bot_minplayers": 4},
+        {"map": "q3dm9"},
+        {"map": "q3dm13"},
+        {"map": "q3dm15", "bot_minplayers": 4, "timelimit": 10},
+        {"map": "q3dm17", "bot_minplayers": 3, "timelimit": 10},
+        {"map": "q3dm19", "bot_minplayers": 3, "timelimit": 10},
+        {"map": "ztn3dm1", "bot_minplayers": 3},
+        {"map": "storm3tourney8", "bot_minplayers": 4},
+        {"map": "storm3tourney1"},
+        {"map": "pro-q3tourney4"},
+        {"map": "pro-q3tourney2"},
+        {"map": "pro-q3tourney7"},
+        {"map": "pro-q3dm6", "bot_minplayers": 4},
+        {"map": "overkill"},
+        {"map": "lun3dm5", "timelimit": 10},
+        {"map": "gamershome", "bot_minplayers": 5, "timelimit": 10},
+        {"map": "minimanq3", "bot_minplayers": 4, "timelimit": 10},
+        {"map": "giantshome", "bot_minplayers": 5, "timelimit": 10},
+        {"map": "hub3tourney1", "bot_minplayers": 2},
+        {"map": "charon3dm8"},
+        {"map": "charon3dm13"},
+        {"map": "hektik_b3"},
+        {"map": "qxtourney1"},
+        {"map": "rustgrad"},
+        {"map": "aedm7"},
+        {"map": "q3gwdm2"},
+        {"map": "phantq3dm1_rev"},
+        {"map": "phantq3dm3_rev", "bot_minplayers": 4},
+        {"map": "oxodm1", "bot_minplayers": 4},
+        {"map": "anodm3"},
+        {"map": "q3shw19"},
+        {"map": "auh3dm1"}
+    ],
+    "defaults" : {
+        "bot_minplayers": 3,
+        "timelimit": 15,
+        "capturelimit": 5,
+        "fraglimit": 25,
+        "map": "q3dm5"
+    }
+}
